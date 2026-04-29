@@ -1,11 +1,19 @@
 ---
+layout: page
 title: Session Security
-layout: home
+permalink: /security/
 ---
 
 # Session Security
 
-[cite_start]To protect your engineering data, BlastCAD implements an **AuthGuard** system. [cite: 4, 6]
+To protect your engineering data and prevent unauthorized access, BlastCAD implements a robust **AuthGuard** system.
 
-* [cite_start]**Automatic Protection:** If your session expires while working, the system will lock the interface and prompt a re-login to prevent data loss. [cite: 4, 6]
-* [cite_start]**Encrypted Tokens:** All API calls are secured via JWT (JSON Web Tokens) handled through a central Axios client. [cite: 4]
+### Automatic Protection
+If your session expires while working (e.g., JWT token timeout), the system will automatically lock the interface. This prevents further API requests that would fail and prompts a secure re-login to ensure no data is lost during the process.
+
+### Encrypted Tokens
+All communication between the frontend and the BlastCAD API is secured via **JSON Web Tokens (JWT)**. These tokens are handled through a central Axios client that automatically attaches authorization headers to every request.
+
+### Data Privacy
+* **Local Storage:** Authentication details are stored locally and cleared immediately upon logout.
+* **Session Monitoring:** The application monitors 401 (Unauthorized) responses in real-time to trigger the security layer.
