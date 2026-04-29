@@ -1,6 +1,6 @@
 ---
 title: Modification Tools
-layout: home
+layout: page
 ---
 
 # Modification & Editing
