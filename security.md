@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Session Security
-permalink: /security/
 ---
 
 # Session Security
