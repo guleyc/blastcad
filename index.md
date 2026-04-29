@@ -12,8 +12,8 @@ permalink: /
 The definitive engineering manual for the next-generation, web-based 3D CAD and underground blast design platform.
 {: .fs-6 .fw-300 }
 
-[Start Drafting](/drafting/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Charging Logic](/charging/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Start Drafting](/drafting.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Charging Logic](/charging.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
